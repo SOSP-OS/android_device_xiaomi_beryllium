@@ -8,6 +8,9 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common sosp stuff.
 $(call inherit-product, vendor/sosp/config/common.mk)
+
+# Google Apps
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
