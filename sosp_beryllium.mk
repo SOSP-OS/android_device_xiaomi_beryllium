@@ -12,6 +12,7 @@ $(call inherit-product, vendor/sosp/config/common.mk)
 # Google Apps
 $(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := sosp_beryllium
